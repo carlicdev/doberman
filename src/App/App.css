@@ -1,0 +1,90 @@
+:root {
+  --taupe: #4A4238;
+  --gray: #4D5359;
+  --green: rgb(76, 144, 108);
+  --etonBlue: #79C99E;
+  --mainWhite: #E8F1F2;
+  --mainDark: #232528;
+}
+
+body, html {
+  background: var(--mainWhite);
+  font-family: 'Comfortaa', cursive !important;
+  height: 100%;
+  margin: 0;
+  padding: 2.5rem 1rem;
+}
+
+.navbar, .dropdown-menu  {
+  background: var(--taupe) !important;
+  color: var(--mainWhite) !important;
+  text-transform: uppercase;
+  font-family: 'Cormorant Garamond', serif !important;
+}
+
+a {
+  color: var(--mainWhite) !important;
+}
+
+.bs-logo {
+  width: 4.2rem;
+  height:2rem;
+  margin-bottom: -.5rem;
+}
+
+.cover-container {
+  overflow: hidden;
+  width: 100%;
+  height: 800px;;
+}
+
+#cover-hero {
+  height: 100%;
+  background-image: url('./images/maindoberman.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+}
+
+.center-me {
+  margin: 0 auto;
+}
+
+.contact-background {
+  background: var(--green);
+  box-shadow:2px 2px 5px 0px rgba(0,0,0,0.2);
+}
+
+li {
+  list-style: none;
+}
+
+.img-carousel {
+  width: 5rem;
+  height: 30rem;
+}
+
+.img-about {
+  width: 25rem;
+  height: 22rem;
+}
+
+.card-img-top {
+  height: 17.5rem;
+}
+
+.parallax {
+  margin-top: 5rem;
+  height: 500px;
+  background-image: url('./images/doberman-parallax.jpg') !important;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cinzel', serif !important;
+}
