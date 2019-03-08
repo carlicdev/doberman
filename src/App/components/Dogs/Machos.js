@@ -3,10 +3,14 @@ import React, { Component } from 'react';
 import { DogConsumer } from '../../../context';
 import Dog from './Dog'
 
-class Dogs extends Component {
+class Machos extends Component {
     render() {
         return (
             <React.Fragment>
+            <div class="jumbotron">
+                <h1 class="display-4">Sementales</h1>
+                <p class="lead">Lorem ipsum posum ipsum neandertale</p>
+            </div>
                 <div className="row">
                   <DogConsumer>
                       {(value) => {
@@ -23,4 +27,4 @@ class Dogs extends Component {
     }
 }
 
-export default Dogs;
+export default Machos;

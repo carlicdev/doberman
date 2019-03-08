@@ -108,6 +108,7 @@ h1, h2, h3, h4 {
 
 .tag-container {
   background: var(--darkCoral) !important;
+  color: var(--mainWhite) !important;
 }
 
 .mr-2 {

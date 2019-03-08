@@ -16,9 +16,9 @@ class Navbar extends Component {
                             Ejemplares
                             </a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <Link to="/dogs" className="dropdown-item" >Machos</Link>
-                            <Link to="/dogs" className="dropdown-item" >Hembras</Link>
-                            <Link to="/dogs" className="dropdown-item" >Camadas</Link>
+                            <Link to="/sementales" className="dropdown-item" >Sementales</Link>
+                            <Link to="/hembras" className="dropdown-item" >Hembras</Link>
+                            <Link to="/camadas" className="dropdown-item" >Camadas</Link>
                             </div>
                         </li>
                         <li className="nav-item">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { machos, detailMacho } from '../src/data';
+import { machos, detailMacho, hembras, camadas } from '../src/data';
 
 // Context
 const DogContext = React.createContext();
@@ -10,6 +10,8 @@ class DogProvider extends Component {
         super(props);
         this.state = {
             machosList: [],
+            hembrasList: [],
+            camadasList: [],
             detailDog: detailMacho,
             modalOpen: false,
             modalDog: detailMacho
@@ -18,7 +20,8 @@ class DogProvider extends Component {
 
     componentDidMount() {
         this.setMachos();
-        console.log(this.state.machosList);
+        this.setHembras();
+        this.setCamadas();
     }
 
     setMachos = () => {
@@ -29,6 +32,28 @@ class DogProvider extends Component {
         });
         this.setState(() => {
             return { machosList: tempMachos }
+        });
+    }
+
+    setHembras = () => {
+        let tempHembras = [];
+        hembras.forEach(dog => {
+            const singleDog = {...dog};
+            tempHembras = [...tempHembras, singleDog];
+        });
+        this.setState(() => {
+            return { hembrasList: tempHembras }
+        });
+    }
+
+    setCamadas = () => {
+        let tempCamadas = [];
+        camadas.forEach(camada => {
+            const singleCamada = {...camada};
+            tempCamadas = [...tempCamadas, singleCamada];
+        });
+        this.setState(() => {
+            return { camadasList: tempCamadas }
         });
     }
 

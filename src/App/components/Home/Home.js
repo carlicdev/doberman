@@ -38,7 +38,7 @@ class Home extends Component {
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
-                        <Link to="/dogs">
+                        <Link to="/sementales">
                             <ButtonContainer>
                                 Sementales
                             </ButtonContainer>
@@ -51,7 +51,7 @@ class Home extends Component {
                         <img src={img2} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <Link to="/dogs">
+                        <Link to="/hembras">
                             <ButtonContainer>
                                 Hembras
                             </ButtonContainer>
@@ -64,7 +64,7 @@ class Home extends Component {
                         <img src={img3} class="card-img-top" alt="..."/>
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <Link to="/dogs">
+                        <Link to="/camadas">
                             <ButtonContainer>
                                 Camadas
                             </ButtonContainer>
