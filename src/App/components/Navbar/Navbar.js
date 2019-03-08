@@ -5,17 +5,29 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-light">
-                <Link to="/" className="navbar-brand" href="#">Navbar</Link>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <Link to="/" className="navbar-brand" href="#"><span className="mr-2"><i className="fas fa-home fa-2x"></i></span></Link>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="navbar-nav">
-                        <Link to="/home" className="nav-item nav-link active">Home <span className="sr-only">(current)</span></Link>
-                        <Link to="/dogs" className="nav-item nav-link">Ejemplares</Link>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ejemplares
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <Link to="/dogs" class="dropdown-item" >Machos</Link>
+                            <Link to="/dogs" class="dropdown-item" >Hembras</Link>
+                            <Link to="/dogs" class="dropdown-item" >Camadas</Link>
+                            </div>
+                        </li>
+                        <li class="nav-item">
                         <Link to="/about" className="nav-item nav-link">Nosotros</Link>
+                        </li>
+                        <li class="nav-item">
                         <Link to="/contact" className="nav-item nav-link">Contacto</Link>
-                   </div>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         );

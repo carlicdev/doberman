@@ -74,6 +74,8 @@ li {
 .img-about {
   width: 25rem;
   height: 22rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-img-top {

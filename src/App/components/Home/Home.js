@@ -32,7 +32,7 @@ class Home extends Component {
 
 
                 <div className="row mt-5 text-center">
-                    <div className="col-10 mx-auto col-md-6 col-lg-4 mb-5 p-2">
+                    <div className="col-8 mx-auto col-md-6 col-lg-4 mb-5 p-2">
                     <div class="card">
                         <img src={img1} class="card-img-top" alt="..."/>
                         <div class="card-body">
@@ -46,7 +46,7 @@ class Home extends Component {
                         </div>
                     </div>
                     </div>
-                    <div className="col-10 mx-auto col-md-6 col-lg-4 mb-5 p-2">
+                    <div className="col-8 mx-auto col-md-6 col-lg-4 mb-5 p-2">
                     <div class="card">
                         <img src={img2} class="card-img-top" alt="..."/>
                         <div class="card-body">
@@ -59,7 +59,7 @@ class Home extends Component {
                         </div>
                     </div>
                     </div>
-                    <div className="col-10 mx-auto col-md-6 col-lg-4 mb-5 p-2">
+                    <div className="col-8 mx-auto col-md-6 col-lg-4 mb-5 p-2">
                     <div class="card">
                         <img src={img3} class="card-img-top" alt="..."/>
                         <div class="card-body">

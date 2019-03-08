@@ -8,7 +8,7 @@ class Carousel extends Component {
     render() {
         return (
            <div className="row">
-        <div className="col-12">  
+        <div className="col-10 mx-auto">  
                         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
