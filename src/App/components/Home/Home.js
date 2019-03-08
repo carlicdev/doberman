@@ -14,25 +14,22 @@ class Home extends Component {
             <React.Fragment>
                 <div className="row featurette">
                     <div className="col-md-7 text-center p-5">
-                    <h1 className="mt-5">Un logo</h1>
-                    <h3>Un slogan ae i o u</h3>
-                    <p>Un texto: Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna. </p>
+                        <div class="jumbotron text-center">
+                            <h1 class="display-4">Hello, world!</h1>
+                            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                            <Link to="/about">
+                                <ButtonContainer>
+                                    quienes somos
+                                </ButtonContainer>
+                            </Link>
+                        </div>
                     </div>
                     <div className="col-md-5">
                         <Carousel />
                     </div>
                 </div>
 
-                <div class="jumbotron text-center">
-                    <h1 class="display-4">Hello, world!</h1>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                    <Link to="/about">
-                        <ButtonContainer>
-                            quienes somos
-                        </ButtonContainer>
-                    </Link>
-                </div>
 
                 <div className="row mt-5 text-center">
                     <div className="col-10 mx-auto col-md-6 col-lg-4 mb-5 p-2">

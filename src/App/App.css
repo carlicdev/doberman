@@ -1,8 +1,11 @@
 :root {
-  --taupe: #4A4238;
-  --gray: #4D5359;
-  --green: rgb(76, 144, 108);
-  --etonBlue: #79C99E;
+  --darkCoral: #CF5C36;
+  --lightCoral: rgb(243, 156, 128);
+  --coral: #F78154; 
+  --tomato: #F06543;
+  --gunmetal: #2A2D34;
+  --lightGray: #595758;
+
   --mainWhite: #E8F1F2;
   --mainDark: #232528;
 }
@@ -10,13 +13,15 @@
 body, html {
   background: var(--mainWhite);
   font-family: 'Comfortaa', cursive !important;
-  height: 100%;
+  position: relative;
   margin: 0;
-  padding: 2.5rem 1rem;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  padding: 2.5rem 0rem;
 }
 
 .navbar, .dropdown-menu  {
-  background: var(--taupe) !important;
+  background: var(--darkCoral) !important;
   color: var(--mainWhite) !important;
   text-transform: uppercase;
   font-family: 'Cormorant Garamond', serif !important;
@@ -40,7 +45,7 @@ a {
 
 #cover-hero {
   height: 100%;
-  background-image: url('./images/maindoberman.jpg');
+  background-image: url('./images/doberman-camada.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,7 +58,7 @@ a {
 }
 
 .contact-background {
-  background: var(--green);
+  background: var(--lightCoral);
   box-shadow:2px 2px 5px 0px rgba(0,0,0,0.2);
 }
 
@@ -87,4 +92,29 @@ li {
 
 h1, h2, h3, h4 {
   font-family: 'Cinzel', serif !important;
+}
+
+.header-container .card {
+  margin-top: -2rem;
+  text-transform: uppercase;
+  border: none !important;
+}
+.header-img {
+  width: 100%;
+  height: 20rem;
+}
+
+.tag-container {
+  background: var(--darkCoral) !important;
+}
+
+.mr-2 {
+  color: var(--lightCoral) !important;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -2.5rem;
 }
