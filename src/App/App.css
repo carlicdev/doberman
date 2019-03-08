@@ -6,7 +6,7 @@
   --gunmetal: #2A2D34;
   --lightGray: #595758;
 
-  --mainWhite: #E8F1F2;
+  --mainWhite: rgb(216, 230, 231);
   --mainDark: #232528;
 }
 
@@ -91,10 +91,10 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/*
 h1, h2, h3, h4 {
   font-family: 'Cinzel', serif !important;
-}
+} */
 
 .header-container .card {
   margin-top: -2rem;

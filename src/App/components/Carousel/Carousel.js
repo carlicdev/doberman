@@ -12,13 +12,13 @@ class Carousel extends Component {
                         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                <img src={img1} alt="img1" className="d-block w-100 img-carousel" alt="..."/>
+                                <img src={img1} alt="img1" className="d-block w-100 img-carousel" alt="img1"/>
                                 </div>
                                 <div className="carousel-item">
-                                <img src={img2} alt="img2" className="d-block w-100 img-carousel" alt="..."/>
+                                <img src={img2} alt="img2" className="d-block w-100 img-carousel" alt="img2"/>
                                 </div>
                                 <div className="carousel-item">
-                                <img src={img3} alt="img3" className="d-block w-100 img-carousel" alt="..."/>
+                                <img src={img3} alt="img3" className="d-block w-100 img-carousel" alt="img3"/>
                                 </div>
                             </div>
                             <a className="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">

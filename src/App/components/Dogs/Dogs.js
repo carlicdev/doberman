@@ -1,13 +1,23 @@
 import React, { Component } from 'react';
 
-import Header from '../Header/Header';
+import { DogConsumer } from '../../../context';
+import Dog from './Dog'
 
 class Dogs extends Component {
     render() {
         return (
             <React.Fragment>
-                <Header />
-                <h1>Hello from Dogs</h1>
+                <div className="row">
+                  <DogConsumer>
+                      {(value) => {
+                          return value.machosList.map(dog => {
+                              return (
+                                  <Dog key={dog.id} dog={dog} />
+                              );
+                          })
+                      }}
+                  </DogConsumer>
+                </div>
             </React.Fragment>
         );
     }
