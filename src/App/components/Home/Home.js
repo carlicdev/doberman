@@ -15,9 +15,9 @@ class Home extends Component {
                 <div className="row featurette">
                     <div className="col-md-7 text-center p-5">
                         <div class="jumbotron text-center">
-                            <h1 class="display-4">Hello, world!</h1>
-                            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                            <h1 class="display-4">Main Logo</h1>
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae vestibulum justo. Fusce blandit velit lacus, eget pulvinar diam auctor ac.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae vestibulum justo.</p>
                             <Link to="/about">
                                 <ButtonContainer>
                                     quienes somos

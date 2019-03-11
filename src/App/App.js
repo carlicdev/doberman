@@ -11,6 +11,8 @@ import Hembras from './components/Dogs/Hembras';
 import Camadas from './components/Dogs/Camadas';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Details from './components/Details/Details';
+import DetailsHembras from './components/Details/DetailsHembras'
 
 class App extends Component {
   render() {
@@ -24,6 +26,8 @@ class App extends Component {
           <Route path="/camadas" component={Camadas} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/details" component={Details} />
+          <Route path="/detailsh" component={DetailsHembras} />
         </Switch>
         <Footer />
       </React.Fragment>

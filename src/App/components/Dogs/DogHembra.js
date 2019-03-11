@@ -22,10 +22,10 @@ return (
                                 <h5 className="card-title">{name}</h5>
                                 <p class="card-text"><small class="text-muted"><span>{age}</span> años</small></p>
                                 <p className="card-text">{description}</p>
-                                <div className="container mb-2 ">
-                                <Link to="/details"
+                                <div className="container mb-2">
+                                <Link to="/detailsh"
                                       onClick={() => {
-                                             value.handleDetail(id);
+                                             value.handleDetailHembra(id);
                                          }}
                                 >
                                 <span className="mr-2"><i className="fas fa-plus-circle fa-3x float-right"></i></span>

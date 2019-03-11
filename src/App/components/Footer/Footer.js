@@ -6,7 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <nav className="navbar footer justify-content-center p-1">
-                <p className="text-muted ">Website made by
+                <p>Website made by
                     <a href="#" >
                         <img src={logo} alt="logo" className="bs-logo" />
                     </a>

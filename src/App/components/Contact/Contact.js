@@ -6,9 +6,9 @@ class Contact extends Component {
     render() {
         return (
             <React.Fragment>
-                            <div class="jumbotron">
-                <h1 class="display-4">Contacto</h1>
-                <p class="lead">Lorem ipsum posum ipsum neandertale Lorem ipsum posum ipsum neandertale Lorem ipsum posum ipsum neandertale Lorem ipsum posum ipsum neandertale Lorem ipsum posum ipsum neandertale</p>
+                            <div className="jumbotron">
+                <h1 className="display-4">Contacto</h1>
+                <p className="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae vestibulum justo. Fusce blandit velit lacus, eget pulvinar diam auctor ac.</p>
             </div>
                 <div className="mb-5">
                 <div className="col-md-9 m-auto">

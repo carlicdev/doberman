@@ -6,9 +6,9 @@ export default class Camadas extends Component {
   render() {
     return (
         <React.Fragment>
-                        <div class="jumbotron">
-                <h1 class="display-4">Camadas</h1>
-                <p class="lead">Lorem ipsum posum ipsum neandertale</p>
+                        <div className="jumbotron">
+                <h1 className="display-4">Camadas</h1>
+                <p className="lead">Lorem ipsum posum ipsum neandertale</p>
             </div>
             <DogConsumer>
               {(value) => {

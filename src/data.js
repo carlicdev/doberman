@@ -5,15 +5,16 @@ export const machos = [
         img: "images/maindoberman.jpg",
         age: 5,
         titles: ["Campeon Nacional 2017"],
-        description: "Un perro con excelete temperamento y con mucha agresividad."
-    },
+        description: "Un perro con excelete temperamento y con mucha agresividad.",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae vestibulum justo. Fusce blandit velit lacus, eget pulvinar diam auctor ac. Donec efficitur eros nec lobortis ornare. Mauris risus ipsum, porttitor in aliquam ut, vehicula quis turpis. In tristique tellus ac ultricies facilisis. Aliquam condimentum urna et erat gravida, et egestas ex tempor. Integer sit amet elit nunc."    },
     {
         id: 2,
         name: "Von Alguna Hembra",
         img: "images/doberman2.jpg",
         age: 3,
         titles: ["Campeon Nacional 2018", "Campeon Internacional 2019"],
-        description: "Un perro con excelete temperamento y con mucha agresividad."
+        description: "Un perro con excelete temperamento y con mucha agresividad.",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae vestibulum justo. Fusce blandit velit lacus, eget pulvinar diam auctor ac. Donec efficitur eros nec lobortis ornare. Mauris risus ipsum, porttitor in aliquam ut, vehicula quis turpis. In tristique tellus ac ultricies facilisis. Aliquam condimentum urna et erat gravida, et egestas ex tempor. Integer sit amet elit nunc."
     },
     {
         id: 3,
@@ -21,16 +22,16 @@ export const machos = [
         img: "images/maindoberman.jpg",
         age: 4,
         titles: ["Campeon Nacional 2018", "Campeon Internacional 2019"],
-        description: "Un perro con excelete temperamento y con mucha agresividad."
-    },
+        description: "Un perro con excelete temperamento y con mucha agresividad.",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae vestibulum justo. Fusce blandit velit lacus, eget pulvinar diam auctor ac. Donec efficitur eros nec lobortis ornare. Mauris risus ipsum, porttitor in aliquam ut, vehicula quis turpis. In tristique tellus ac ultricies facilisis. Aliquam condimentum urna et erat gravida, et egestas ex tempor. Integer sit amet elit nunc."    },
     {
         id: 4,
         name: "Von Alguna Hembra II",
         img: "images/maindoberman.jpg",
         age: 3,
         titles: ["N/A"],
-        description: "Un perro con excelete temperamento y con mucha agresividad."
-    },
+        description: "Un perro con excelete temperamento y con mucha agresividad.",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae vestibulum justo. Fusce blandit velit lacus, eget pulvinar diam auctor ac. Donec efficitur eros nec lobortis ornare. Mauris risus ipsum, porttitor in aliquam ut, vehicula quis turpis. In tristique tellus ac ultricies facilisis. Aliquam condimentum urna et erat gravida, et egestas ex tempor. Integer sit amet elit nunc."    },
 ];
 
 export const hembras = [
@@ -39,33 +40,33 @@ export const hembras = [
         name: "Hembra I",
         img: "images/dobermann1.jpg",
         age: 3,
-        titles: ["Campeon Nacional 2017"],
-        description: "Excelente reproductora."
-    },
+        titles: "Campeon Nacional 2017, Campeon Interamericano 2018",
+        description: "Excelente reproductora.",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae vestibulum justo. Fusce blandit velit lacus, eget pulvinar diam auctor ac. Donec efficitur eros nec lobortis ornare. Mauris risus ipsum, porttitor in aliquam ut, vehicula quis turpis. In tristique tellus ac ultricies facilisis. Aliquam condimentum urna et erat gravida, et egestas ex tempor. Integer sit amet elit nunc."    },
     {
         id: 2,
         name: "Hembra II",
         img: "images/doberman2.jpg",
         age: 4,
         titles: ["Campeon Nacional 2018", "Campeon Internacional 2019"],
-        description: "Excelente reproductora. Madre de campeon Nacional."
-    },
+        description: "Excelente reproductora. Madre de campeon Nacional.",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae vestibulum justo. Fusce blandit velit lacus, eget pulvinar diam auctor ac. Donec efficitur eros nec lobortis ornare. Mauris risus ipsum, porttitor in aliquam ut, vehicula quis turpis. In tristique tellus ac ultricies facilisis. Aliquam condimentum urna et erat gravida, et egestas ex tempor. Integer sit amet elit nunc."    },
     {
         id: 3,
         name: "Hembra III",
         img: "images/dobberman-camada.jpg",
         age: 2,
         titles: ["Campeon Nacional 2018", "Campeon Internacional 2019"],
-        description: "Esperando su primer camada."
-    },
+        description: "Esperando su primer camada.",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae vestibulum justo. Fusce blandit velit lacus, eget pulvinar diam auctor ac. Donec efficitur eros nec lobortis ornare. Mauris risus ipsum, porttitor in aliquam ut, vehicula quis turpis. In tristique tellus ac ultricies facilisis. Aliquam condimentum urna et erat gravida, et egestas ex tempor. Integer sit amet elit nunc."    },
     {
         id: 4,
         name: "Hembra IV",
         img: "images/maindoberman.jpg",
         age: 3,
         titles: ["N/A"],
-        description: "Madre de campeones."
-    },
+        description: "Madre de campeones.",
+        info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae vestibulum justo. Fusce blandit velit lacus, eget pulvinar diam auctor ac. Donec efficitur eros nec lobortis ornare. Mauris risus ipsum, porttitor in aliquam ut, vehicula quis turpis. In tristique tellus ac ultricies facilisis. Aliquam condimentum urna et erat gravida, et egestas ex tempor. Integer sit amet elit nunc."    },
 ];
 
 export const camadas = [
@@ -115,3 +116,4 @@ export const detailMacho = {
     titles: ["Campeon Nacional 2017"],
     description: "Un perro con excelete temperamento y con mucha agresividad."
 };
+
